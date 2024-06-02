@@ -26,5 +26,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // fix dactyl split keyboard - slave not responding when flash
 // reference :
 // https://github.com/qmk/qmk_firmware/issues/9697
+#define USE_SERIAL
 #define SPLIT_USB_DETECT
 #define SPLIT_USB_TIMEOUT 2000
