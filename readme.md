@@ -35,6 +35,10 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
 
+## How to edit my config
+`
+vim keyboards/handwired/dactyl_manuform/5x6/keymaps/ppp_custom/
+`
 ## Compile My Config
 `
 qmk compile -kb handwired/dactyl_manuform/5x6 -km ppp_custom
